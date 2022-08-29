@@ -9,7 +9,7 @@
     <script src="./js/index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? família= Poppins:wght@400;600 & display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5fbe9f451b.js" crossorigin="anonymous" defer></script>
 
 </head>
@@ -25,28 +25,30 @@
                 
                 <input type="email" placeholder="example@example.com">
                 <div class="password-container">
-                    <input type="password" class="field-password" placeholder="*********">
-                    <i class="fa-solid fa-eye" id="eye"></i>
-                    <i class="fa-solid fa-eye-low-vision" id="eye-slash"></i>
+                    <input type="password" id="field-password" class="field-password" placeholder="*********">
+                    <i class="fa-solid fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fa-solid fa-eye-low-vision" id="eye-slash" onclick="showPassword()"></i>
                 </div>
             </section>
 
-            <section calss="password-infos">
+            <section class="password-infos">
                 <div>
                     <input type="checkbox">
                     <span>Lembrar senha ?</span>
                 </div>
+
                 <a href="#">Esqueceu sua senha ?</a>
             </section>
+
             <button id="btn-login">Login</button>
 
-            <section>
+            <section class="links-container">
                 <span>Ou entre com:</span>
 
                 <aside>
-                    <a href="#"><i class="fa-brands fa-square-google-plus"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-google-plus google"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook facebook"></i></a>
                 </aside>
             </section>
 
